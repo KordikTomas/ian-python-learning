@@ -1,6 +1,6 @@
 
 def is_prime(n):
-    for i in range(2, n //2 +1):
+    for i in range(2, n // 2 +1):
         if n % i == 0:
             return False
         
@@ -9,7 +9,7 @@ def is_prime(n):
 def verify_is_prime(n, expectedResult):
     actualResult = is_prime(n)
     if actualResult != expectedResult:
-        print("Zastřelit Pandu,protože je to špatně")
+        print("Zastřelit Pandu, protože je to špatně")
 
 verify_is_prime(6, False)
 verify_is_prime(2, True)
