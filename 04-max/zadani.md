@@ -12,3 +12,7 @@ def max(numbers)
 numbers = [ 72, 9, -14, 25, 101, -61, 33]
 highest = max(numbers)
 ```
+
+# Nápověda
+
+Nastuduj si práci se seznamy: [https://docs.python.org/3/tutorial/introduction.html#lists](https://docs.python.org/3/tutorial/introduction.html#lists)
